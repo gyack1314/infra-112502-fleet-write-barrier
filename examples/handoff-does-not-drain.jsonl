@@ -1,0 +1,17 @@
+{"at":0,"kind":"member","record":{"service":"desk","boot":1,"fleets":["a"],"registers":["R"],"pause_groups":[["a"]],"new_work":true}}
+{"at":0,"kind":"member","record":{"service":"yard","boot":1,"fleets":["a"],"registers":["R"],"pause_groups":[["a"]],"new_work":true}}
+{"at":1,"kind":"open","record":{"window":"w1","fleets":["a"],"expand_accepted":false}}
+{"at":2,"kind":"paused","record":{"window":"w1","service":"desk","boot":1,"pending":["job-3"]}}
+{"at":3,"kind":"paused","record":{"window":"w1","service":"yard","boot":1,"pending":[]}}
+{"at":4,"kind":"transfer","record":{"work":"job-3","from":"desk","from_boot":1,"to":"yard","to_boot":1}}
+{"at":5,"kind":"member","record":{"service":"yard","boot":2,"fleets":["a"],"registers":["R"],"pause_groups":[["a"]],"new_work":true}}
+{"at":6,"kind":"begin","record":{"window":"w1","actor":"operator"}}
+{"at":7,"kind":"paused","record":{"window":"w1","service":"yard","boot":2,"pending":[]}}
+{"at":8,"kind":"finished","record":{"service":"yard","boot":1,"work":"job-3"}}
+{"at":9,"kind":"begin","record":{"window":"w1","actor":"operator"}}
+{"at":10,"kind":"result","record":{"window":"w1","state":"unknown"}}
+{"at":11,"kind":"restart","record":{}}
+{"at":12,"kind":"inspect","record":{"window":"w1"}}
+{"at":13,"kind":"result","record":{"window":"w1","state":"committed","new_numbering":"v2"}}
+{"at":14,"kind":"resume","record":{"window":"w1","service":"yard","boot":2,"numbering":"v1"}}
+{"at":15,"kind":"resume","record":{"window":"w1","service":"yard","boot":2,"numbering":"v2"}}

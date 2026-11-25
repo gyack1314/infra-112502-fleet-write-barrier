@@ -1,0 +1,13 @@
+{"at":0,"kind":"member","record":{"service":"joined","boot":1,"fleets":["a","b"],"registers":["R"],"pause_groups":[["a","b"]],"new_work":true}}
+{"at":0,"kind":"member","record":{"service":"unrelated","boot":1,"fleets":["c"],"registers":["T"],"pause_groups":[["c"]],"new_work":true}}
+{"at":1,"kind":"open","record":{"window":"a","fleets":["a"],"expand_accepted":false}}
+{"at":2,"kind":"open","record":{"window":"b","registers":["R"],"expand_accepted":false}}
+{"at":3,"kind":"inspect","record":{"fleet":"c"}}
+{"at":4,"kind":"approve_expansion","record":{"window":"a","fleets":["a","b"]}}
+{"at":5,"kind":"paused","record":{"window":"a","service":"joined","boot":1,"pending":[]}}
+{"at":6,"kind":"begin","record":{"window":"a","actor":"operator"}}
+{"at":7,"kind":"begin","record":{"window":"b","actor":"other"}}
+{"at":8,"kind":"cancel","record":{"window":"b"}}
+{"at":9,"kind":"result","record":{"window":"a","state":"aborted"}}
+{"at":10,"kind":"resume","record":{"window":"a","service":"joined","boot":1,"numbering":"v1"}}
+{"at":11,"kind":"inspect","record":{"fleet":"b"}}

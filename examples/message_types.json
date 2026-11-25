@@ -1,0 +1,14 @@
+[
+  "approve_expansion",
+  "begin",
+  "cancel",
+  "finished",
+  "inspect",
+  "member",
+  "open",
+  "paused",
+  "restart",
+  "result",
+  "resume",
+  "transfer"
+]
