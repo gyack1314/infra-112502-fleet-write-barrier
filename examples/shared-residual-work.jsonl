@@ -1,0 +1,16 @@
+{"at":0,"kind":"member","record":{"service":"desk","boot":1,"fleets":["a"],"registers":["R"],"pause_groups":[["a"]],"new_work":true}}
+{"at":0,"kind":"member","record":{"service":"yard","boot":1,"fleets":["a"],"registers":["R"],"pause_groups":[["a"]],"new_work":true}}
+{"at":1,"kind":"open","record":{"window":"wx","fleets":["a"],"expand_accepted":false}}
+{"at":2,"kind":"open","record":{"window":"wy","fleets":["a"],"expand_accepted":false}}
+{"at":3,"kind":"paused","record":{"window":"wx","service":"desk","boot":1,"pending":["job-shared"]}}
+{"at":4,"kind":"paused","record":{"window":"wy","service":"yard","boot":1,"pending":["job-shared"]}}
+{"at":5,"kind":"paused","record":{"window":"wx","service":"desk","boot":1,"pending":[]}}
+{"at":6,"kind":"paused","record":{"window":"wy","service":"yard","boot":1,"pending":[]}}
+{"at":7,"kind":"begin","record":{"window":"wx","actor":"operator"}}
+{"at":8,"kind":"finished","record":{"service":"desk","boot":1,"work":"job-shared"}}
+{"at":9,"kind":"begin","record":{"window":"wx","actor":"operator"}}
+{"at":10,"kind":"begin","record":{"window":"wy","actor":"other"}}
+{"at":11,"kind":"cancel","record":{"window":"wy"}}
+{"at":12,"kind":"result","record":{"window":"wx","state":"aborted"}}
+{"at":13,"kind":"resume","record":{"window":"wx","service":"desk","boot":1,"numbering":"v1"}}
+{"at":14,"kind":"resume","record":{"window":"wx","service":"yard","boot":1,"numbering":"v1"}}
